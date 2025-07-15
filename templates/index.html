@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BBC News RSS Feed</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBC News RSS Feed</title>
 </head>
+
 <body>
-    <h1>{{ feed.title }}</h1>
-    <p>{{ feed.description }}</p>
-    <ul>
+  <h1>{{ feed.title }}</h1>
+  
+  <p>{{ feed.description }}</p>
+
+  <ul>
     {% for entry in feed.entries %}
-        <li>
-            <h2><a href="{{ entry.link }}">{{ entry.title }}</a></h2>
-            <p>{{ entry.summary }}</p>
-        </li>
+    <li>
+      <h2><a href="{{ entry.link }}">{{ entry.title }}</a></h2>
+      <p>{{ entry.summary }}</p>
+    </li>
     {% endfor %}
-    </ul>
+  </ul>
 </body>
+
 </html>
