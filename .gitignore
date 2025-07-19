@@ -1,3 +1,5 @@
 olde.txt
 olde2.txt
 .venv/
+local_settings.py
+.env
