@@ -1,3 +1,8 @@
+""" Renamed this branch from 'initial-branch' to 'togetherAI-branch' and
+abandoning it.  I ran out of TogetherAI tokens after running the project just for
+2 days.  Switching to LocalAI (in a new branch). """
+
+
 from dotenv import load_dotenv
 """ Load environment variables from .env file. """
 load_dotenv()  
