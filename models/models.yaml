@@ -1,0 +1,19 @@
+models:
+  - name: mistral-7b-instruct
+    backend: ggml
+    path: /models/Mistral-7B-Instruct-v0.3.Q4_K_M.gguf
+    parameters:
+      temperature: 0.7
+      top_p: 0.9
+      n_predict: 300
+      stop:
+        - "</s>"
+
+
+## Simpler llama BE, but I can't get to work.
+## Copilot recommends using the ggml backend instead (above) for more fine-grained control.
+# models:
+#   - name: mistral-7b-instruct
+#     backend: llama
+#     parameters:
+#       model: Mistral-7B-Instruct-v0.3.Q4_K_M.gguf

@@ -2,3 +2,5 @@
 olde.txt
 olde2.txt
 .venv/
+model-list.txt
+models/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf
