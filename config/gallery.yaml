@@ -1,0 +1,8 @@
+gallery:
+  - name: mistral-7b-instruct-v0.1.Q2_K
+    description: Mistral 7B Instruct Q2_K GGUF
+    type: gguf
+    backend: llama-cpp
+    files:
+      - filename: mistral-7b-instruct-v0.1.Q2_K.gguf
+        path: /models/mistral-7b-instruct-v0.1.Q2_K.gguf
