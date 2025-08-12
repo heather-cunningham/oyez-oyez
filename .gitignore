@@ -4,3 +4,7 @@ olde2.txt
 .venv/
 model-list.txt
 models/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf
+.vscode/
+HowTo_Docker_LocalAI_with_Mistral.txt
+logs.txt
+RunOyezProjectLocally_LocalAI.txt
